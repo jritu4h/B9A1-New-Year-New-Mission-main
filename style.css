@@ -1,4 +1,35 @@
-/* banner section */
-.banner {
-    background-image: url("/imgs/Banner\ Image.png");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-content {
+    width: 1320px;
+    height: 600px;
+    background-image:url("./resources/Banner\ Image.png") ;
+    margin:0 auto;
+
+}
+.banner-content-info {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+.text {
+    
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+padding-top:240px ;
+
+}
+.title {
+    width: 632px;
+    height: 190px;
+    text-align: center;
+    font-size: 72px;
+    
+
 }
