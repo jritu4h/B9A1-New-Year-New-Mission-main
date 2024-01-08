@@ -222,4 +222,30 @@ height: 72px;
 border-radius: 50px;
 background: #FFF;
 }
+footer {
+    width: 1600px;
+height: 609px;
+background: #070211;
+}
+.address {
+    color: #FFF;
+font-size: 24px;
+padding-left: 140px; 
+padding-top: 100px;
+}
+.phone-website {
+    color: #FFF;
+font-size: 24px;
+margin: right;
+}
+.last-para {
+    color: #FFF;
+font-size: 24px;
+padding-left: 140px;
+padding-top: 200px;
 
+}
+
+.last-btn {
+font-size: 24px;
+}
