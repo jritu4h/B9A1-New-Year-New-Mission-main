@@ -69,7 +69,9 @@ height: 500px;
     background-image: url("./resources/Vectorrr.png");
     width: 1320px;
      height: 600px;
-     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-items: center;
 
 }
 .party-title {
@@ -111,3 +113,113 @@ padding-bottom: 244px;
 #primary {
     color: #F00;
 }
+.offer {
+    width: 1320px;
+    height: 470px;
+    margin: 0 auto; 
+}
+.new-offer {
+    color: #F00;
+
+    font-size: 24px;
+    padding-top: 75px;
+
+}
+.new-offer-come {
+    color: #070211;
+    font-size: 48px;
+
+}
+.new-offer-come-info {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+}
+.offer-info-pic {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 463px;
+    height: 463px;
+    justify-items: auto;
+}
+.holiday {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+
+}
+.holiday-title {
+    color: #070211;
+    font-size: 24px;
+    text-align: center;
+    
+}
+.holiday-text {
+    color: #070211;
+font-size: 72px;
+text-align: center;
+
+}
+.holiday-para {
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+}
+.gift {
+    width: 1320px;
+    height: 1100px;
+    margin: 0 auto;
+}
+.best-gift {
+    color: #F00;
+font-size: 24px;
+
+}
+.best-gift-portfolio {
+    color: #070211;
+    font-size: 48px;
+}
+.gift-item-title {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+}
+.picture-row {
+    display: flex;
+    justify-content: space-between;
+}
+.picture-row :hover{
+    transform: scale(1.1);
+}
+.last-class {
+    width: 1320px;
+     height: 616px;
+     margin: 0 auto;
+     border-radius: 16px;
+     background-color: rgba(255, 0, 0, 0.05); 
+}
+.img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.last-class-itams {
+    color: #070211;
+text-align: center;
+font-size: 48px;
+}
+.last-class-para {
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-size: 20px;
+}
+.btn {
+
+width: 648px;
+height: 72px;
+border-radius: 50px;
+background: #FFF;
+}
+
