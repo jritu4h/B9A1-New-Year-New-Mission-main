@@ -165,23 +165,43 @@ padding-top: 75px;
 }
 .holiday {
     width: 1320px;
-    height: 750px;
+    height: 950px;
     margin: 0 auto;
 
 }
-.mother-class{
+.mother-class {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 24px;
 }
+
+.box {
+    border: 2px solid white;
+    width: 500px;
+}
 .girls {
-    display: flex;
-    justify-content: flex-end;
+    position: relative;
+    left: 850px;
 }
-.empty{
-    justify-content: center;
+.discount{
+    position: relative;
+    left: 650px;
+    bottom: 400px;
+
 }
+.gift-box{
+    position: relative;
+    bottom: 750px;
+    
+
+}
+.red {
+    position: relative;
+    bottom: 850px;
+    right: 39px;
+}
+
 .holiday-title {
     color: #070211;
     font-size: 24px;
