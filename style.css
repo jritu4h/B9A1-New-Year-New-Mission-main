@@ -14,15 +14,10 @@
 
 }
 .banner-content-info {
-    display: flex;
     color: white;
-    justify-content: center;
-    align-items: center;
-    margin: auto 0;
+    
 }
 .text {
-    
-text-align: center;
 font-size: 32px;
 font-weight: 400;
 padding-top:240px ;
@@ -31,7 +26,6 @@ padding-top:240px ;
 .title {
     width: 632px;
     height: 190px;
-    text-align: center;
     font-size: 72px;
     
 
@@ -56,7 +50,7 @@ text-align: center;
 font-size: 48px;
 font-weight: 700;
 }
-.imge{
+.imge {
 
 display: flex;
 align-items: center;
@@ -79,33 +73,33 @@ height: 500px;
     color: #FFF;
 font-size: 64px;
 font-weight: 900;
-padding-left: 126px;
-padding-top: 126px;
 }
 .party-para {
     color: rgba(255, 255, 255, 0.80);
 font-size: 18px;
 font-weight: 400;
-padding-left: 126px;
-padding-top: 24px;
 }
 .party-header{
     color: #FFF;
 font-size: 20px;
 font-weight: 700;
-padding-left: 158px;
-padding-top: 48px;
 }
-#party-img {
+.mother-div{
     display: flex;
+    justify-content: space-around;
+    float: right;
+    align-items: center;
 }
+
 .section {
-    background-color: lightpink;
+    background-color: palevioletred;
     width: 1320px;
     height: 482px;
-    margin: 0 auto;;
+    margin: 0 auto;
 
 }
+
+
 .section-para {
     color: #070211;
 font-size: 32px;
@@ -116,6 +110,14 @@ padding-bottom: 244px;
 }
 #primary {
     color: #F00;
+}
+
+.btn-class {
+    color: #FFF;
+font-size: 20px;
+padding: 16px 32px;
+border-radius: 8px;
+background: #F00;
 }
 .offer {
     width: 1320px;
